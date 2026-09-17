@@ -1,13 +1,23 @@
 # Dovra Beta
 
-A free Windows browser project for authorized agent workflows and web testing, built on Chromium and ungoogled-chromium.
+A Chromium-based Windows browser for authorised agent workflows and web testing, with an English interface and a separately available automation toolkit.
 
-The first public Beta is being prepared. Browser downloads are not available yet; this repository is not a released browser package.
+**[Download Dovra Beta — beta-20260916](https://github.com/dovra-dev/dovra/releases/tag/beta-20260916)**
 
-Website: https://dovra.dev/
+This is a free experimental Beta. The date identifies an internal-test batch, not a formal Dovra product version. Dovra is currently a personal project; no incorporated company or trusted publisher certification is claimed.
 
-Contact: dovra.dev@gmail.com
+- [Quick start](QUICKSTART.md): checksums, extraction, first launch and profiles.
+- [Release notes](https://github.com/dovra-dev/dovra/releases/tag/beta-20260916): actual test coverage, signing status and limitations.
+- [Component source and relinking materials](SOURCE-MATERIALS.md).
+- [Terms](TERMS.md) and [privacy notice](PRIVACY.md).
+- [Project website](https://dovra.dev/).
 
-Use Dovra for lawful workflows and authorized testing. Follow website terms, access controls and normal sign-in and verification processes.
+Get `Dovra-Beta-20260916-win-x64.zip` for the browser and `Dovra-Toolkit-beta-20260916.zip` if you want the optional toolkit. The toolkit includes its readable source, usage guides and launcher source. It requires an explicitly selected browser, Node.js and the documented Playwright dependency. It contains no browser executable. GitHub's automatic repository source archives are documentation, not browser downloads or the complete Chromium source tree.
+
+Use Dovra on systems you own or are authorised to test, and follow the terms and access rules of services you visit. Configurable browser parameters do not grant access, change your network location or guarantee anonymity or website compatibility. Keep a separate browser and backups for important browsing.
+
+Browser components retain their respective licences. The separately identified toolkit and launcher source use MIT; that licence does not relicense the whole browser. Source and relinking materials are available from the same release without individual approval.
+
+Questions: [dovra.dev@gmail.com](mailto:dovra.dev@gmail.com). Include the batch and a small, redacted reproduction. Do not send passwords, tokens, full profiles or identity documents in routine support messages.
 
 Built on Chromium. Not affiliated with or endorsed by Google.
